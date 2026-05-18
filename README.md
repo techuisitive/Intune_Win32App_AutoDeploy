@@ -1,7 +1,9 @@
 **Intune Win32 App Bulk Upload**
+
 Bulk upload and manage Microsoft Intune Win32 applications using PowerShell and Microsoft Graph API. This solution helps administrators automate Win32 app creation, assignment, detection rules, requirement rules, icons, and .intunewin package uploads in bulk.
 
 **Features**
+
 Bulk upload Win32 applications to Microsoft Intune
 Upload .intunewin packages automatically
 Configure install and uninstall commands
@@ -14,6 +16,7 @@ Reduce manual effort and deployment time
 Easily scalable for MSP and enterprise environments
 
 **Prerequisites**
+
 Microsoft Intune Administrator or Global Administrator access
 Microsoft Graph PowerShell SDK installed
 PowerShell 7.x recommended
