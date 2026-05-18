@@ -1,0 +1,45 @@
+{
+  "DisplayName": "Notepad++ 8.9.1 x64",
+  "InstallerName": "npp.8.9.1.Installer.x64.msi",
+  "Description": "Notepad++",
+  "Publisher": "xyz",
+  "AppVersion": "8.9.1",
+  "InstallCmd": "msiexec /i npp.8.9.1.Installer.x64.msi /qn /norestart",
+  "UninstallCmd": "msiexec /x npp.8.9.1.Installer.x64.msi /qn /norestart",
+  "EntraIDGroupName": "App-Intune-Notepad++ 8.9.1",
+  "CreateGroup": "Yes",
+  "AssignApp": "Yes",
+  "DetectionRules": [
+    {
+
+ 	 "Type": "MSI",
+  	"Enabled": true,
+ 	 "@odata.type": "#microsoft.graph.win32LobAppProductCodeRule",
+  	"ruleType": "detection",
+ 	 "productCode": "{7349B4F3-02E1-4234-A67A-FA85B33B67AF}",
+  	"productVersionOperator": "equal",
+ 	 "productVersion": "8.9.1"
+
+    },
+    {
+      "Type": "Registry",
+      "Enabled": false,
+      "KeyPath": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Notepad++",
+      "ValueName": "DisplayVersion",
+      "DetectionType": "version",
+      "Operator": "greaterThanOrEqual",
+      "VersionValue": "8.9.1",
+      "Check32BitOn64System": false
+    },
+    {
+      "Type": "File",
+      "Enabled": false,
+      "Path": "C:\\Program Files\\Notepad++",
+      "FileOrFolderName": "notepad++.exe",
+      "DetectionType": "version",
+      "Operator": "greaterThanOrEqual",
+      "VersionValue": "8.9.1",
+      "Check32BitOn64System": false
+    }
+  ]
+}
