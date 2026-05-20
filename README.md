@@ -102,6 +102,7 @@ Output Example
 [SUCCESS] Assignment completed
 
 **Benefits**
+
 Faster Intune application onboarding
 Standardized Win32 app deployments
 Reduced manual configuration errors
@@ -110,6 +111,7 @@ Helpful for MSP environments managing multiple tenants
 Simplifies application lifecycle management
 
 **Use Cases**
+
 Enterprise application onboarding
 MSP multi-tenant Intune management
 Application migration to Intune
@@ -117,6 +119,7 @@ Standardized Win32 deployment automation
 Rapid software rollout projects
 
 **Roadmap**
+
 Dependency support
 Supersedence support
 Azure Blob package storage integration
@@ -129,10 +132,11 @@ Contributing
 Contributions, improvements, and feature suggestions are welcome.
 
 **Author**
+
 Scripts maintained by Equebal Ahmad
 Visit Techuisitive.com for full tutorials. 
 
-**Complete Tutorial **
+**Complete Tutorial**
 
 https://techuisitive.com/bulk-win32-app-deployment-to-intune-using-powershell-and-microsoft-graph-api/
 
