@@ -131,5 +131,8 @@ Contributions, improvements, and feature suggestions are welcome.
 **Author**
 Scripts maintained by Equebal Ahmad
 Visit Techuisitive.com for full tutorials. 
-Tutorial: https://techuisitive.com/bulk-win32-app-deployment-to-intune-using-powershell-and-microsoft-graph-api/
+
+**Complete Tutorial **
+
+https://techuisitive.com/bulk-win32-app-deployment-to-intune-using-powershell-and-microsoft-graph-api/
 
